@@ -1,0 +1,15 @@
+<!-- <p>to-do-list works!</p> -->
+<p>Task 2</p>
+<div>
+  <p>Todo List</p>
+  <input type="text" placeholder="" [(ngModel)]="todo" />
+  <button (click)="addTodo()">Add</button>
+  <p>View todo list Items:</p>
+  <ul>
+    <li *ngFor="let todo of todoList; let i = index">
+      {{ todo }}
+      <button (click)="deleteItem(i)">Delete</button>
+    </li>
+  </ul>
+</div>
+

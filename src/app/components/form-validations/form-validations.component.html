@@ -1,0 +1,15 @@
+<p>form-validations works!</p>
+<form (ngSubmit)="submit()">
+  <input type="text" placeholder="Enter your name" name="name" [(ngModel)]="formValidations.name"/>
+  <input type="text" placeholder="Enter your email" name="email" [(ngModel)]="formValidations.email"/>
+  <input type="text" placeholder="Enter your phone" name="phone" [(ngModel)]="formValidations.contact"/>
+  <input type="text" placeholder="Enter your password" name="password" [(ngModel)]="formValidations.password"/>
+  <button type="submit" [disabled]="!canSubmit()">Submit</button>
+</form>
+<ul *ngIf="submitted">
+  <li>Name: {{submitted.n}}</li>
+  <li>Email: {{submitted.email}}</li>
+  <li>Phone: {{submitted.contact}}</li>
+  <li>Password: {{submitted.password}}</li>
+</ul>
+

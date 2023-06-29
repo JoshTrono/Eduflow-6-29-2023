@@ -1,0 +1,6 @@
+<!-- <p>counter works!</p> -->
+<div>
+  <h1>Number: {{number}}</h1>
+  <button (click)="increase()">Increase</button>
+  <button (click)="decrease()" [disabled]="number<=0" >Decrease</button>
+</div>
