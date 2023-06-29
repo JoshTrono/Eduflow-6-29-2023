@@ -9,6 +9,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { ToDoListComponent } from './components/to-do-list/to-do-list.component';
 import { FormsModule } from '@angular/forms';
 import { FormValidationsComponent } from './components/form-validations/form-validations.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FormValidationsComponent } from './components/form-validations/form-val
     CounterComponent,
     NavbarComponent,
     ToDoListComponent,
-    FormValidationsComponent
+    FormValidationsComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
