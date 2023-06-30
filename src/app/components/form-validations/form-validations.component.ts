@@ -19,8 +19,8 @@ export class FormValidationsComponent {
     return (
       this.formValidations.name !== '' &&
       this.formValidations.email !== '' &&
-      this.formValidations.contact !== '' &&
-      this.formValidations.password !== '' &&
+      // this.formValidations.contact !== '' &&
+      // this.formValidations.password !== '' &&
       this.formValidations.password.length >= 8 &&
       this.formValidations.email.includes('@') &&
       this.formValidations.contact.length === 10

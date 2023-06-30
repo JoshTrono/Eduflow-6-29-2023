@@ -10,6 +10,7 @@ import { ToDoListComponent } from './components/to-do-list/to-do-list.component'
 import { FormsModule } from '@angular/forms';
 import { FormValidationsComponent } from './components/form-validations/form-validations.component';
 import { SearchComponent } from './components/search/search.component';
+import { ImageUploadComponent } from './components/image-upload/image-upload.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SearchComponent } from './components/search/search.component';
     NavbarComponent,
     ToDoListComponent,
     FormValidationsComponent,
-    SearchComponent
+    SearchComponent,
+    ImageUploadComponent
   ],
   imports: [
     BrowserModule,

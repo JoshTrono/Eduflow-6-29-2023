@@ -17,8 +17,7 @@ export class SearchComponent {
   items = this.originalItems;
 
   onSearch() {
-    // Filter the items array based on the search term
-    if (this.searchTerm) {
+        if (this.searchTerm) {
       this.items = this.originalItems.filter((item: { Name: string }) => item.Name.toLowerCase().includes(this.searchTerm.toLowerCase()));
     } else {
       this.items = this.originalItems;

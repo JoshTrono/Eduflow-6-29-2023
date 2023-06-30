@@ -1,0 +1,16 @@
+.circle {
+  width: 500px; /* You can change the size of the circle */
+  height: 500px; /* You can change the size of the circle */
+  position: absolute; /* it makes the circle center */
+  top: 50%; /* centers the circle */
+  left: 50%; /* centers the circle */
+  margin-top: -250px; /* half of the height */
+  margin-left: -250px; /* half of the width */
+  border-radius: 50%; /* makes the square a circle */
+  background-size: contain; /* makes the image fit */
+  background-position: center center; /* makes the image fit */
+  overflow: hidden; /* hides the overflowing of the image */
+  display: flex; /* centers the image horizontally */
+  justify-content: center; /* centers the image horizontally */
+  align-items: center; /* centers the image vertically */
+}
